@@ -2,8 +2,15 @@
 
 int main()
 {
-    int X, Y, i;
+    int X, Y, temp, i;
     scanf("%d%d", &X, &Y);
+
+    if (Y < X)
+    {
+        temp = Y;
+        Y = X;
+        X = temp;
+    }
 
     for (i = X + 1; i < Y; i++)
     {
