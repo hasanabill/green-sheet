@@ -18,7 +18,6 @@ int main()
 
         else if (arr[i] > arr[i + 1] && arr[i - 1] > arr[i])
             card2++;
-
         else
         {
             card3 = 3;
